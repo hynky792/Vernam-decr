@@ -1,5 +1,5 @@
-text = input('Insert encrypted text')
-keytext = input('Insert text contaning key')
+text = input('Insert encrypted text in hex')
+keytext = input('Insert plain text contaning key')
 text = text.replace(" ","")
 cryptline = [text[i:i+2] for i in range(0, len(text), 2)]
 x=0
